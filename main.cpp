@@ -14,7 +14,7 @@ void show (double &total_price)
     cout<<"2.Hot Dog"<<"\t\t"<<"$2.99"<<endl;
     cout<<"3.Pizza"<<"\t\t\t"<<"$3.49"<<endl;
     cout<<"\n\n";
-    cout<<"Press '4' to exit";
+    cout<<"Press '4' to reset and '5' to exit";
     cout<<"\n\n";
     cout<<"Select : ";
     cin>>num;
@@ -41,7 +41,14 @@ void show (double &total_price)
         cout<<"Total : $"<<total_price<<endl;
         break;
 
+        
         case '4':
+
+        total_price=0.0;
+        cout<<"Total : $"<<total_price<<endl;
+        break;    
+
+        case '5':
 
         cout<<"Exiting....."<<endl;
         return;
