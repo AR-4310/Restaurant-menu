@@ -24,21 +24,21 @@ void show (double &total_price)
 
         total_price+=2.49;
         cout<<"Burger has been added to your cart"<<endl;
-        cout<<"Total :"<<total_price<<endl;
+        cout<<"Total : $"<<total_price<<endl;
         break;
 
         case '2':
 
         total_price+=2.99;
         cout<<"Hot Dog has been added to your cart"<<endl;
-        cout<<"Total :"<<total_price<<endl;
+        cout<<"Total : $"<<total_price<<endl;
         break;
 
         case '3':
 
         total_price+=3.49;
         cout<<"Pizza has been added to your cart"<<endl;
-        cout<<"Total :"<<total_price<<endl;
+        cout<<"Total : $"<<total_price<<endl;
         break;
 
         case '4':
