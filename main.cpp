@@ -55,7 +55,7 @@ void show (double &total_price)
 
         default:
 
-        cout<<"Invalid selection!Please try again"<<endl;
+        cout<<"Invalid selection!Please try again."<<endl;
         break;
         }
 
